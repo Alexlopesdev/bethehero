@@ -20,3 +20,23 @@ Configurando ambiente para desenvolvimento
 1- Executar dentro da pasta backend do seu projeto npm -y
 2 - Instalar express ele é framework muito pequeno ele ajuda somente iniciar o projeto
     npm install express
+
+crie index.js
+
+const express = require ('express');
+
+const app = express();
+
+app.get('/', (request, response) => {
+    return response.json ({
+        evento: 'Semana Omnistack',
+        aluno: 'Alex Lopes'
+    }) ;
+});
+
+app.listen(3333);
+
+Verifique seu navegador e verifique se esta correto.
+
+
+
