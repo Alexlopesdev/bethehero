@@ -23,18 +23,18 @@ Configurando ambiente para desenvolvimento
 
 crie index.js
 
-const express = require ('express');
+        const express = require ('express');
 
-const app = express();
+        const app = express();
 
-app.get('/', (request, response) => {
-    return response.json ({
-        evento: 'Semana Omnistack',
-        aluno: 'Alex Lopes'
-    }) ;
-});
+        app.get('/', (request, response) => {
+            return response.json ({
+                evento: 'Semana Omnistack',
+                aluno: 'Alex Lopes'
+             }) ;
+        });
 
-app.listen(3333);
+        app.listen(3333);
 
 Verifique seu navegador e verifique se esta correto.
 
@@ -42,6 +42,11 @@ Verifique seu navegador e verifique se esta correto.
 Saia da pasta backend e crie o projeto React com o comando abaixo
 
 create-react-app DEFINA O NOME DO PROJETO
+
+entre na pasta frontend e execute
+
+npm start na pasta frontend
+
 
 
 
