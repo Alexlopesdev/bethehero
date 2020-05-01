@@ -13,4 +13,10 @@ Configurando ambiente para desenvolvimento
 
 4° Execute
     cinst nodejs-lts
-    
+
+
+    Criando o backend
+
+1- Executar dentro da pasta backend do seu projeto npm -y
+2 - Instalar express ele é framework muito pequeno ele ajuda somente iniciar o projeto
+    npm install express
