@@ -39,4 +39,10 @@ app.listen(3333);
 Verifique seu navegador e verifique se esta correto.
 
 
+Saia da pasta backend e crie o projeto React com o comando abaixo
+
+create-react-app DEFINA O NOME DO PROJETO
+
+
+
 
