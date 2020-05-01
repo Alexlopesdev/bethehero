@@ -2,7 +2,7 @@ const express = require ('express');
 
 const app = express();
 
-app.get('/users', (request, response) => {
+app.post('/users', (request, response) => {
     return response.json ({
         evento: 'Semana Omnistack',
         aluno: 'Alex Lopes'
