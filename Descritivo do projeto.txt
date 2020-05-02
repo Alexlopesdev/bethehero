@@ -47,7 +47,30 @@ entre na pasta frontend e execute
 
 npm start na pasta frontend
 
+2º Dia!!!
 
+Metodos http
+GET: Buscar/Listar uma informação do backend
+POST: Criar uma informação no backend
+PUT: alterar uma informação no backend
+DELETE: Deletar informação do backend
+
+
+TIPOS DE PARAMETROS
+
+QUERY PARAMS: Parametros nomeados enviados na rota após "?"(Filtros, Paginação)
+ROUT PARAMS: Parametros utilizados para identificar recursos
+REQUEST BODY: Corpo da requisição, utilizando para criar ou alterar recursos
+
+request = GUARDA REQUISIÇÕES
+response = MOSTRA DAS REQUISIÇÕES
+
+
+instalação NODEMON - sera utilizado, somente pra não termos que ficar reiniciando o servidor toda hora.
+
+npm install nodemon -D
+
+Ele instala somente nas dependecias do projeto, pois quando este servidor for para a produção ele sera desistalado
 
 
 
